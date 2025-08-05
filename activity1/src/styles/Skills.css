@@ -1,24 +1,23 @@
 .Skills {
-  font-size: clamp(1rem, 2vw, 1.2rem);
-  line-height: 1.4;
-  padding-left: 3rem;
-  margin: 20px;
-  border-radius: 14px;
-  word-wrap: break-word;
-  overflow: hidden;
-  border-left: 1px solid rgba(0, 0, 0, 0.2);
+   font-size: clamp(1rem, 2vw, 1.2rem);
+   line-height: 1.4;
+   padding-left: 3rem;
+   margin: 20px;
+   border-radius: 14px;
+   word-wrap: break-word;
+   overflow: hidden;
+   border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.Skills H2{
-  font-size: clamp(1.2rem, 2vw, 1.8rem);
-  margin-bottom: 20px;
-  color: #333;
-  text-align: center;
+.Skills H2 {
+   font-size: clamp(1.2rem, 2vw, 1.8rem);
+   margin-bottom: 20px;
+   color: #333;
+   text-align: center;
 }
 
 @media (max-width: 768px) {
-  .Skills {
-    padding: 1.5rem;
-  }
-
+   .Skills {
+      padding: 1.5rem;
+   }
 }

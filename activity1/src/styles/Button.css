@@ -1,48 +1,48 @@
 .Follow {
-  font-size: clamp(1rem, 2vw, 1.2rem);
-  line-height: 1.4;
-  margin: 20px;
-  padding-left: 3rem;
-  border-radius: 14px;
-  word-break: break-word;
-  overflow: hidden;
-  border-left: 1px solid rgba(0, 0, 0, 0.2);
+   font-size: clamp(1rem, 2vw, 1.2rem);
+   line-height: 1.4;
+   margin: 20px;
+   padding-left: 3rem;
+   border-radius: 14px;
+   word-break: break-word;
+   overflow: hidden;
+   border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .Follow h2 {
-  font-size: clamp(1.2rem, 2vw, 1.8rem);
-  margin-bottom: 20px;
-  color: #333;
-  text-align: center;
+   font-size: clamp(1.2rem, 2vw, 1.8rem);
+   margin-bottom: 20px;
+   color: #333;
+   text-align: center;
 }
 
 .Follow button {
-  background-color: #333;
-  color: white;
-  width: 90%;
-  border: none;
-  margin: 8px;
-  padding: 12px 20px;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
+   background-color: #333;
+   color: white;
+   width: 90%;
+   border: none;
+   margin: 8px;
+   padding: 12px 20px;
+   border-radius: 8px;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   text-decoration: none;
 }
 
 .Follow button:hover {
-  background-color: #555;
-  transform: scale(1.05);
+   background-color: #555;
+   transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
-  .Follow {
-    padding: 1.5rem;
-  }
+   .Follow {
+      padding: 1.5rem;
+   }
 
-  .Follow button {
-    width: 100%;
-    padding: 12px;
-    margin: 10px auto;
-  }
+   .Follow button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px auto;
+   }
 }
