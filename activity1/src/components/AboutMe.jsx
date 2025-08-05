@@ -4,9 +4,7 @@ export default function AboutMe() {
    return (
       <div className="AboutMe">
          <h2>ABOUT ME</h2>
-         <p>John Carl G. Aviso</p>
-         <p>22 Years old</p>
-         <p>Ibabao Cordova Cebu</p>
+            <p>I am John Carl Aviso, 22 years old and a BSIT-3C Student. Currently residing in Cordova Cebu</p>
       </div>
    );
 }
