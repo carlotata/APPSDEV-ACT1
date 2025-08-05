@@ -1,0 +1,25 @@
+.AboutMe{
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.4;
+  padding-left: 3rem;
+  margin: 20px;
+  border-radius: 14px;
+  word-wrap: break-word;
+  overflow: hidden;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.AboutMe H2{
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .AboutMe {
+    padding: 1.5rem;
+  }
+
+}
