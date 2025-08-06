@@ -1,17 +1,23 @@
 import "../styles/Button.css";
+import fb from "../assets/fb.png"
+import instagram from "../assets/instagram.jpg"
+import dc from "../assets/dc.jpg"
 
 export default function Button() {
    return (
       <div className="Follow">
          <h2>REACH ME OUT</h2>
          <a href="https://www.facebook.com/jc.aviso.9/" target="blank">
-            <button>Facebook</button>
+            <img src={fb} alt="" className="logo" />
+            <button id="1">Facebook</button>
          </a>
          <a href="https://www.instagram.com/jcarl_012/" target="blank">
-            <button>Instagram</button>
+            <img src={instagram} alt="" className="logo" />
+            <button id="2">Instagram</button>
          </a>
          <a href="https://discord.com/users/761688402881151036" target="blank">
-            <button>Discord</button>
+            <img src={dc} alt="" className="logo" />
+            <button id="3">Discord</button>
          </a>
       </div>
    );

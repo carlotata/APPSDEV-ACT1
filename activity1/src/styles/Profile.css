@@ -1,9 +1,6 @@
 .Profile {
    border: 1px solid rgba(0, 0, 0, 0.1);
    padding: 20px;
-   /* margin-top:100px;
-  margin-left: 14px;
-  margin-right: 14px; */
    margin: 120px;
    border-radius: 14px;
    background-color: hsl(0, 0%, 100%);
@@ -17,6 +14,7 @@
    padding: 5px;
    background-color: #cfcdcd;
 }
+
 
 @media (max-width: 768px) {
    .Profile,

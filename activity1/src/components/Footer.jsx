@@ -5,7 +5,7 @@ export default function Footer() {
    return (
       <footer className="footer">
          <img src={logo} />
-         <p>ACTIVITY 1 BY JOHN CARL AVISO</p>
+         <p>© 2025 John Carl Aviso. All rights reserved.</p>
       </footer>
    );
 }

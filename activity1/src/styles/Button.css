@@ -16,6 +16,11 @@
    text-align: center;
 }
 
+.logo {
+   display: none;
+   width: 100px;
+}
+
 .Follow button {
    background-color: #333;
    color: white;
@@ -41,8 +46,13 @@
    }
 
    .Follow button {
-      width: 100%;
-      padding: 12px;
-      margin: 10px auto;
+      display: none;
+   }
+
+   .logo {
+      display: inline-block;
+      height: 30px;
+      width: 50px;
+      padding: 1rem;
    }
 }
