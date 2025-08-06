@@ -52,7 +52,8 @@
    .logo {
       display: inline-block;
       height: 30px;
-      width: 50px;
+      width: 40px;
       padding: 1rem;
+      margin-left: 1rem;
    }
 }
